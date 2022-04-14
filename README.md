@@ -1,26 +1,26 @@
 # BUFpython
-Basic Utilities For python
-
-Current Utilities:
-
-Toggleable Variables
-usage: 
-	from BUFpy import toggleables
-	var = Toggleable(value=False)
-	print(var.value)#outputs False
-	var.toggle()
-	print(var.value)#outputs True
-	var.t()
-	print(var.value)#outputs False
-	var.setVal(True)
-
-Logging
-usage:
-	from BUFpy import logging
-	logger = Logger(file, logTime,)
-	logger.settings(file="fizzbuzz.log", logTime=False)
-	logger.log(level, "fizz, buzz, fizzbuzz")
-	#level -1 means "[time][ERROR] : message" will be logged
-	#level 0 means "[time][INFO] : message" will be logged
-	#level 1 means "[time][WARNING]: message" will be logged
-	#if level is a string, "[time][theInputedString] : message" will be logged
+Basic Utilities For python<br/>
+<br/>
+Below are the current utilities in this package<br/>
+<br/>
+## Toggleable Variables<br/>
+usage: <br/>
+&emsp;from BUFpy import toggleables<br/>
+&emsp;var = Toggleable(value=False)<br/>
+&emsp;print(var.value)#outputs False<br/>
+&emsp;var.toggle()<br/>
+&emsp;print(var.value)#outputs True<br/>
+&emsp;var.t()<br/>
+&emsp;print(var.value)#outputs False<br/>
+&emsp;var.setVal(True)<br/>
+<br/>
+## Logging<br/>
+usage:<br/>
+&emsp;from BUFpy import logging<br/>
+&emsp;logger = Logger(file, logTime,)<br/>
+&emsp;logger.settings(file="fizzbuzz.log", logTime=False)<br/>
+&emsp;logger.log(level, "fizz, buzz, fizzbuzz")<br/>
+&emsp;#level -1 means "[time][ERROR] : message" will be logged<br/>
+&emsp;#level 0 means "[time][INFO] : message" will be logged<br/>
+&emsp;#level 1 means "[time][WARNING]: message" will be logged<br/>
+&emsp;#if level is a string, "[time][theInputedString] : message" will be logged<br/>
