@@ -24,3 +24,5 @@ usage:<br/>
 &emsp;#level 0 means "[time][INFO] : message" will be logged<br/>
 &emsp;#level 1 means "[time][WARNING]: message" will be logged<br/>
 &emsp;#if level is a string, "[time][theInputedString] : message" will be logged<br/>
+## Planned Future Features<br/>
+> public key private key implimentation
